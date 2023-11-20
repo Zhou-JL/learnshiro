@@ -7,13 +7,13 @@ spring:
     date-format: yyyy-MM-dd HH:mm:ss
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://60.205.4.182:3306/shirojwt?useSSL=false&useUnicode=true&characterEncoding=utf-8
+    url: jdbc:mysql://xxxxx:3306/shirojwt?useSSL=false&useUnicode=true&characterEncoding=utf-8
     username: root
-    password: Zhou%236513
+    password: xxxxxx
   redis:
-    host: 123.249.25.35
+    host: xxxx
     port: 6379
-    password: CnJ#nGvv$un
+    password: xxxxx
 
 mybatis-plus:
   configuration:
