@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: springboot_shiro
+  jackson:
+    default-property-inclusion: non_null
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://60.205.4.182:3306/shirojwt?useSSL=false&useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: Zhou%236513
+  redis:
+    host: 123.249.25.35
+    port: 6379
+    password: CnJ#nGvv$un
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath:mapper/*.xml
+  global-config:
+    db-config:
+      id-type: auto    #设置数据库主键自增
+      logic-delect-value: 1     #已删除
+      logic-not-delect-value: 0   #未删除
+server:
+  port: 8089
+#shiro:
+#  loginUrl: /myController/login
